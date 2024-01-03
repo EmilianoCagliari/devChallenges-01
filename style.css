@@ -6,6 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #FAFAF9;
+
 }
 
 .text-title {    
@@ -28,6 +30,7 @@ body {
 .card {    
     border-radius: 15px;
     box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
 }
 
 .card_header {
