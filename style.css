@@ -3,10 +3,12 @@
 }
 
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #FAFAF9;
+    justify-content: center;
 
 }
 
@@ -35,16 +37,18 @@ body {
 
 .card_header {
     padding: 16px;
+    width: 336px;
+    height: 152px;
 }
 
 .card_header > img {
-    width: 336px;
-    height: 152px;
+    width: 100%;
+    
     border-radius: 15px;
 }
 .card_body {
     width: 336px;
-    padding: 0px 20px;
+    padding: 0px 16px;
 }
 
 .card_body > h1 {
@@ -62,7 +66,7 @@ body {
 }
 
 .card_footer  p {
-    padding: 16px 20px;
+    padding:  20px 16px;
     color: #6C727F;
 }
 
